@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react'
 export default function CurrencyConverter() {
 
     const [baseCurrency, setBaseCurrency] = useState("USD");
-    const [convertCurrency, setConvertedCurrency] = useState("INR");
+    const [convertCurrency, setConvertedCurrency] = useState("IND");
     const [baseAmount, setBaseAmount] = useState(10);
     const rates = [];
     const currencies = [];
